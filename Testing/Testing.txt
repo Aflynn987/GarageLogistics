@@ -1,0 +1,60 @@
+/\ Test Cases
+
+> Test 01
+- Description
+	First run of the program after resolving errors
+- Test Data
+	Enter in data using both new cars and secondhand cars (entering in both VRT and current mileage)
+- Expected Result
+	The data should be stored and displayed in the table, the search function should specify each object based on price
+- Actual Result
+	When specifying a certain price, the object is left by itself on the table
+- Pass/fail
+	Pass
+- Comments
+	The search function was the origin of the many problems so it was nice to have it resolved.
+	
+> Test 02
+- Description
+	Second run of the program
+- Test Data
+	Enter in data only using secondhand cars (entering in only current mileage)
+- Expected Result
+	After the first test, the data should be displayed and VRT should remain a null value
+- Actual Result
+	The VRT remained a null value on all objects stored, it did not influence the search function
+- Pass/fail
+	Pass
+- Comments
+	The functionality of having the VRT replaced by current mileage worked, the VRT label and text field were hidden
+	
+> Test 03
+- Description
+	Third run of the program
+- Test Data
+	Enter in data only using new cars (entering in only VRT)
+- Expected Result
+	After the previous tests, the data should be displayed and current mileage should remain a null value
+- Actual Result
+	The current mileage was not entered and remained a null value, this did not impact the search function which still works
+- Pass/fail
+	Pass
+- Comments
+	The functionality of replacing current mileage with VRT worked although the lenght of the text field could have been longer
+	
+> Test 04
+- Description
+	The fourth and final run of the program
+- Test Data
+	Using both buttons again to see if it remains working
+- Expected Result
+	Judging by the first test, this should be no different
+- Actual Result
+	Everything remains working
+- Pass/fail
+	Pass
+- Comments
+	Effectively a rerun of the first test to double check it works, no issues arised
+
+	
+	
